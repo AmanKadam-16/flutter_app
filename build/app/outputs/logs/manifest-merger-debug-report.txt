@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:5:5-37:19
+INJECTED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:13:5-45:19
 INJECTED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\debug\AndroidManifest.xml
 MERGED from [:geolocator_android] C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:geolocator_android] C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
@@ -31,11 +31,11 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\AS
 	android:name
 		INJECTED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:1:1-49:12
-MERGED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:1:1-49:12
-INJECTED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:1:1-57:12
+MERGED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:1:1-57:12
+INJECTED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\debug\AndroidManifest.xml:1:1-15:12
+INJECTED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\debug\AndroidManifest.xml:1:1-15:12
+INJECTED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\debug\AndroidManifest.xml:1:1-15:12
 MERGED from [:connectivity_plus] C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:device_info_plus] C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\build\device_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:fluttertoast] C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\build\fluttertoast\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
@@ -122,18 +122,36 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:4:5-81
 	android:name
 		ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:4:22-78
-queries
-ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:43:5-48:15
-intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:44:9-47:18
-action#android.intent.action.PROCESS_TEXT
-ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:45:13-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:6:5-81
+MERGED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:6:5-81
+MERGED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:45:21-70
+		ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:10:5-85
+MERGED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:10:5-85
+MERGED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:10:5-85
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:10:22-82
+queries
+ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:51:5-56:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:52:9-55:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:53:13-72
+	android:name
+		ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:53:21-70
 data
-ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:46:13-50
+ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:54:13-50
 	android:mimeType
-		ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:46:19-48
+		ADDED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\main\AndroidManifest.xml:54:19-48
 uses-sdk
 INJECTED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ASUS\Desktop\WORK\TimeAttendance-1\android\app\src\debug\AndroidManifest.xml
