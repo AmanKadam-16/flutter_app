@@ -100319,7 +100319,7 @@ p=4
 k=a.f
 n=B.d5.gk8().cq(new A.ea(k))
 A.ab(" strEncrypted:"+A.o(n))
-m="https://proxy-ta-server.vercel.app"+b
+m="https://server16.vercel.app/ta-api"+b
 A.ab(" strAPIUrl:"+A.o(m))
 s=7
 return A.t(h.uo(n,m),$async$kz)
@@ -100357,7 +100357,7 @@ s=7
 return A.t(k,$async$q9)
 case 7:n=e
 A.ab(" strEncrypted:"+A.o(n))
-m="https://proxy-ta-server.vercel.app"+c
+m="https://server16.vercel.app/ta-api"+c
 A.ab(" strAPIUrl:"+A.o(m))
 s=8
 return A.t(h.yV(n,m,b),$async$q9)
@@ -100398,7 +100398,7 @@ s=8
 return A.t(j,$async$bR)
 case 8:n=e
 A.ab(" strEncrypted:"+A.o(n))
-m="https://proxy-ta-server.vercel.app"+c
+m="https://server16.vercel.app/ta-api"+c
 l=b
 s=9
 return A.t(g.yZ(n,l,m),$async$bR)
@@ -100439,7 +100439,7 @@ s=8
 return A.t(j,$async$bS)
 case 8:n=e
 A.ab(" strEncrypted:"+A.o(n))
-m="https://proxy-ta-server.vercel.app"+c
+m="https://server16.vercel.app/ta-api"+c
 l=b
 s=9
 return A.t(g.z_(n,l,m),$async$bS)
@@ -100480,7 +100480,7 @@ s=8
 return A.t(j,$async$bQ)
 case 8:n=e
 A.ab(" strEncrypted:"+A.o(n))
-m="https://proxy-ta-server.vercel.app"+c
+m="https://server16.vercel.app/ta-api"+c
 l=b
 s=9
 return A.t(g.yN(n,l,m),$async$bQ)
@@ -104066,7 +104066,7 @@ s=7
 return A.t(j,$async$uq)
 case 7:n=c
 A.ab(" strEncrypted:"+A.o(n))
-m="https://proxy-ta-server.vercel.app/api/Login"
+m="https://server16.vercel.app/ta-api/api/Login"
 A.ab(" strAPIUrl:"+A.o(m))
 s=8
 return A.t(g.uo(n,m),$async$uq)
