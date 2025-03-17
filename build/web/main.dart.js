@@ -103358,7 +103358,7 @@ p=4
 k=a.f
 n=B.dr.gkF().ct(new A.eo(k))
 A.ai(" strEncrypted:"+A.o(n))
-m="http://4.188.255.22:8085"+b
+m="https://server16.vercel.app/ta-api"+b
 A.ai(" strAPIUrl:"+A.o(m))
 s=7
 return A.t(h.v_(n,m),$async$l7)
@@ -103396,7 +103396,7 @@ s=7
 return A.t(k,$async$qG)
 case 7:n=e
 A.ai(" strEncrypted:"+A.o(n))
-m="http://4.188.255.22:8085"+c
+m="https://server16.vercel.app/ta-api"+c
 A.ai(" strAPIUrl:"+A.o(m))
 s=8
 return A.t(h.zE(n,m,b),$async$qG)
@@ -103437,7 +103437,7 @@ s=8
 return A.t(j,$async$bX)
 case 8:n=e
 A.ai(" strEncrypted:"+A.o(n))
-m="http://4.188.255.22:8085"+c
+m="https://server16.vercel.app/ta-api"+c
 l=b
 s=9
 return A.t(g.zI(n,l,m),$async$bX)
@@ -103478,7 +103478,7 @@ s=8
 return A.t(j,$async$bY)
 case 8:n=e
 A.ai(" strEncrypted:"+A.o(n))
-m="http://4.188.255.22:8085"+c
+m="https://server16.vercel.app/ta-api"+c
 l=b
 s=9
 return A.t(g.zJ(n,l,m),$async$bY)
@@ -103519,7 +103519,7 @@ s=8
 return A.t(j,$async$bW)
 case 8:n=e
 A.ai(" strEncrypted:"+A.o(n))
-m="http://4.188.255.22:8085"+c
+m="https://server16.vercel.app/ta-api"+c
 l=b
 s=9
 return A.t(g.zB(n,l,m),$async$bW)
@@ -107538,7 +107538,7 @@ s=7
 return A.t(j,$async$v0)
 case 7:n=c
 A.ai(" strEncrypted:"+A.o(n))
-m="http://4.188.255.22:8085/api/Login"
+m="https://server16.vercel.app/ta-api/api/Login"
 A.ai(" strAPIUrl:"+A.o(m))
 s=8
 return A.t(g.v_(n,m),$async$v0)
